@@ -46,3 +46,42 @@ p{
     column-rule:1px solid blue;
    
 }
+
+.div_class{
+    background-color:firebrick;
+    color:white;
+    width: 100%;
+    height: 100px;
+    margin-bottom:0.8rem;
+    -webkit-box-shadow: 3px 4px 0px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 3px 4px 0px 0px rgba(0,0,0,0.3);
+    box-shadow: 3px 4px 0px 0px rgba(0,0,0,0.3);
+    
+}
+ul{
+    list-style-type: none;
+}
+.my_ul li {
+    display: inline-block;
+    background-color: black;
+    color:white;
+    padding:0.5rem 1.2rem;
+    transition: 1s all;
+    top:10;
+    text-transform: uppercase;
+    position: sticky;
+}
+.my_ul li:hover{
+    background-color: white;
+    color:black;
+    transition: ease-in-out 2s all;
+    cursor: pointer;
+}
+#back_to_top{
+    position: fixed;
+    right:0;
+    bottom:0;
+    background-color: blue;
+    color:white;
+    padding: .5rem 1rem;
+}
