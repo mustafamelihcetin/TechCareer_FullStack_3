@@ -151,3 +151,15 @@ header{
         padding: 100px;
     }
 }
+
+/* my_clearfix */
+.my_clearfix::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+
+#my_image{
+    float:left;
+    width:25%;
+}
